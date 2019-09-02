@@ -55,9 +55,9 @@
 #set_io --warn-no-port D5   7
 #set_io --warn-no-port D4   8
 #set_io --warn-no-port D3   3
-#set_io --warn-no-port D2   4
-#set_io --warn-no-port D1   1
-set_io --warn-no-port BUZZER   2
+set_io --warn-no-port tone_12khz  4
+set_io --warn-no-port tone_1khz   1
+set_io --warn-no-port tone_100hz  2
 
 # -- In Bottom female header
 #set_io --warn-no-port DD0  114
